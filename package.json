@@ -1,0 +1,31 @@
+{
+  "name": "gitbook-plugin-doxme",
+  "version": "1.0.0",
+  "description": "Gitbook plugin to add output from doxme to your gitbook",
+  "main": "index.js",
+  "engines": {
+    "gitbook": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gitbook",
+    "dox"
+  ],
+  "peerDependencies": {
+    "dox": "0.8.0",
+    "doxme": "1.8.2"
+  },
+  "author": "Alexander Fell <alex@alexfell.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "dox": "0.8.0",
+    "doxme": "1.8.2"
+  },
+  "dependencies": {
+    "glob": "^7.0.3",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.2"
+  }
+}
